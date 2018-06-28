@@ -1,0 +1,259 @@
+*, .noMargin {
+	margin: 0;
+	padding: 0
+}
+
+.autoClear:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden
+}
+
+.boxCategoria {
+	background-color: #FFF;
+	border: 1px solid #000;
+	margin: 0 13px 13px 18px;
+	/*width: 584px*/
+	width: 940px;
+}
+
+div#full {
+	margin: auto;
+	text-align: left;
+	width: 988px
+}
+#header-image {
+	/*background: transparent url("http://localhost/blogcooperativo/imagens/bg-topo-estacao.png");*/
+	width: 989px;
+	height: 100px;
+	position: relative
+}
+.top-user, .help, .rules, .logout, .sign-up, .remember-password, .email-input span, .password-input span {
+	font-size: 12px !important;
+	font-weight: bold;
+	margin-top: 3px;
+	padding: 0 10px
+}
+.input-header {
+	font-size: 12px !important;
+	font-weight: bold;
+	margin-top: 3px;
+	padding: 0 10px;
+}
+.input-login {
+	border-right: 1px solid #fff;
+	font-size: 14px !important;
+	font-weight: bold;
+	margin-top: 3px;
+	padding: 0 10px;
+}
+
+table#topics col.answers, table#postsUser col.subject, table#postsUser col.date, input#user, input#pass {
+	width: 100px
+}
+
+table#cadastro td {
+	width: 150px;
+	height: 40px;
+	font-size: 13px;
+}
+
+table#cadastro input {
+	border: 1px solid #6FA2BD !important;
+	height: 22px;
+	width: 300px
+}
+table#cadastro input:disabled {
+	background-color: #CED1D2;
+}
+
+table#cadastro td#minInput input {
+	border: 1px solid #6FA2BD !important;
+	height: 22px;
+	width: 70px
+}
+table#historico td{
+	height: 50px;
+	width: 1000px;
+	
+}
+table#historico p {
+	padding-left: 30px;
+	font-size: 14px;
+}
+
+.row1 {
+	background: #fff
+}
+.row2 {
+	background: #f0f0f4
+}
+
+.sign-up, .remember-password {
+	border-right: 1px solid #fff;
+	font-size: 12px !important;
+	font-weight: bold;
+	margin-top: 3px;
+	padding: 0 10px;
+}
+
+#content-inside {
+	background: url("/deswebContrProd/imagens/bg_pagina.gif");
+	padding-top: 20px;
+	border-left: 4px solid #000;
+	border-right: 4px solid #000
+}
+
+div#content-middle {
+	font-size: 11px;
+	width: 614px
+}
+
+div#content-middle h1 {
+	color: #4d4d4d;
+	font-size: 17px;
+	padding-left: 13px;
+	padding-top: 13px
+}
+div#content-middle h2 {
+	font-size: 14px;
+	padding-left: 11px;
+	padding-top: 5px
+}
+div#content-middle table, #frmDeleteInboxTable {
+	border-collapse: collapse
+}
+div#content-middle th {
+	background-color: #666;
+	color: #FFF;
+	padding-left: 10px
+}
+
+div#content .breadcrumb {
+	color: #371BE0;
+	font-family: Arial;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 13px 18px
+}
+div#content .breadcrumb a, table#foruns a, table#topics a, h3 a:hover, div#importTab2 a:hover, h1 a:hover, .spanH1 :hover {
+	color: #371BE0
+}
+div#content h1 {
+	font-family: Arial;
+	font-size: 20px;
+	padding: 0 28px
+}
+div#content h2 {
+	color: #10CFCF;
+	font-size: 14px;
+	padding-left: 11px;
+	padding-top: 6px
+}
+div#content img {
+	margin: 0;
+	padding: 0 !important;
+	vertical-align: middle
+}
+div#content {
+	background: #000
+}
+div#content #input {
+	float: left;
+	font-size: 17px;
+	padding-left: 350px;
+}
+
+div#content #cancelar {
+	float: left;
+	font-size: 17px;
+	padding-left: 10px;
+}
+
+.sprite-bg-title {
+	background-repeat: repeat-x
+}
+
+.center {
+	margin: 0 auto;
+	text-align: center !important
+}
+
+
+
+a:link, a:hover, a:active {
+	color: #000
+}
+a:link, a:visited {
+	text-decoration: none
+}
+a:visited {
+	color: #333
+}
+abbr {
+	border: 0;
+	font-variant: normal
+}
+
+body {
+	-x-system-font: none;
+	background: #000 url("/deswebContrProd/imagens/colorful-triangles-background_002.jpg") top left fixed repeat-x;
+	font-family: Arial;
+	font-size: x-small;
+	/*font-size-adjust: none;*/
+	/*font-stretch: normal;*/
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: normal;
+	margin: 5px 0;
+	padding: 0;
+	text-align: center;
+	width: 100%
+}
+
+div#goto {
+	height: 29px
+}
+
+#header-actions {
+	background: #000;
+	height: 40px;
+	color: #fff;
+	position: relative
+}
+#header-actions-ul {
+	width: 1013px;
+	position: absolute;
+	top: 7px;
+	left: 1%
+}
+#header-actions-ul li {
+	list-style-type: none;
+	float: left
+}
+#header-actions-ul li a {
+	/*color: #10CFCF*/
+	color: #fff;
+}
+#header-actions-ul li a:hover {
+	color: #10CFCF;
+}
+
+#menu-buttons {
+
+}
+/*-----------------------------------------*/
+
+/*-------------------------------------*/
+input {
+	vertical-align: middle !important
+}
+input, select, table, dl, dd, li {
+	font-family: Arial !important;
+	font-size: inherit !important
+}
+
+/*---------------------------------------------------------------------------------------*/
